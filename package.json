@@ -30,10 +30,10 @@
     "test": "jest --coverage"
   },
   "dependencies": {
-    "@babel/runtime": "^7.1.2",
-    "activestorage": "^5.2.0"
+    "@babel/runtime": "^7.1.2"
   },
   "devDependencies": {
+    "activestorage": "file:../rails/activestorage",
     "@babel/core": "^7.1.2",
     "@babel/plugin-external-helpers": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.0.0",
